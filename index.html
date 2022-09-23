@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Landing Page | Frontend Mentor</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./BasicStyle.css">
+    <link rel="stylesheet" href="./ResponsiveStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="./images/logo.svg" alt="Brand Logo" class="Logo" id="HeaderLogo">
+            <nav id="NavBar">
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+            <button class="GetStartedBtn" id="HeaderGetStartedButton">Get Started</button>
+             <i class="fa-solid fa-bars" id="MenuButton"></i>
+        </header>
+
+        <section class="Home">
+            <div class="HomeLeft">
+                <h1>Bring everyone together to bulild better products.</h1>
+                <p>Manage makes it simple for software teams to plan pay day-today tasks while keeping the larger team goals in view.</p>
+                <button class="GetStartedBtn" id="HomeGetStartedButton">Get Started</button>
+
+            </div>
+            <div class="HomeRight">
+                <img src="./images/illustration-intro.svg" alt="">
+            </div>
+        </section>
+        <section class="Functionality">
+             <div class="FunctionalityLeft">
+                <h3>What's different about Manage ?</h3>
+                <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailer-made for modern digital product teams.</p>
+            </div>
+
+            <div class="RightFunctionality">
+                
+                <div class="FunctionalityDiscription">
+                   <div class="Funtitle"><span class="FunNumber">01</span><h4>Track company-wide progress</h4></div>
+                    <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+
+               <div class="FunctionalityDiscription">
+                   <div class="Funtitle"><span class="FunNumber">02</span><h4>Advanced built-in reports</h4></div>
+                    <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+                </div>
+
+                <div class="FunctionalityDiscription">
+                   <div class="Funtitle"><span class="FunNumber">03</span><h4>Everything you need in one place</h4></div>
+                    <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+                </div>
+            </div> 
+
+        </section>
+
+        <section class="ClientReview">
+            <h3 class="ClientReviewTitle">What they've said</h3>
+            <div class="ClientContainer">
+               <div class="Review" id="Review-1">
+                    <img src="./images/avatar-anisha.png" alt="Anisha-Profile" class="ClientProfile">
+                    <span class="ClientName">Anisha Li</span>
+                    <p>"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."</p>
+                </div>
+
+                 <div class="Review" id="Review-2">
+                    <img src="./images/avatar-ali.png" alt="Ali Bravo-Profile" class="ClientProfile">
+                    <span class="ClientName">Ali Bravo</span>
+                    <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+                </div>
+
+                <div class="Review" id="Review-3">
+                    <img src="./images/avatar-richard.png" alt="Richard Watts-Profile" class="ClientProfile">
+                    <span class="ClientName">Richard Watts</span>
+                    <p>"Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone i talk to!"</p>
+                </div>
+
+                <div class="Review" id="Review-4">
+                    <img src="./images/avatar-shanai.png" alt="Shanai-Gough-Profile" class="ClientProfile">
+                    <span class="ClientName">Shanai Gough</span>
+                    <p>"Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."</p>
+                </div>
+            </div>
+            <div class="slider-boxes">
+                <input name="radio" type="radio" value="1" checked>
+                <input name="radio" type="radio" value="2">
+                <input name="radio" type="radio" value="3">
+                <input name="radio" type="radio" value="4">
+              </div>
+            <button class="GetStartedBtn" id="ClientGetStartedButton">Get Started</button> 
+        </section>
+
+
+        <section class="GetStarted">
+            <h4>Simplify how your team works today.</h4>
+            <button class="GetStartedBtn" id="GetStartedButton">Get Started</button> 
+        </section>
+
+        <footer>
+          <div class="LogoAndSocial">
+                <div class="Logo">
+                     <img src="./images/logo.svg" alt="Brand Logo" />
+                </div>
+                <div class="socialSites">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+     
+             <div class="Links">
+            <a href="#">Home</a>
+            <a href="#">Pricing</a>
+            <a href="#">Products</a>
+            <a href="#">About Us</a>
+            </div>
+    
+            <div class="Links">
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+                <a href="#">Privacy Policy</a>
+            </div> 
+    
+            <div class="FormAndcopyright">
+             <form>
+                <div class="Email">
+                    <input type="email" name="EmialText" id="EmailBox" placeholder="Updates in your inbox..." required/>
+                    <span id="ErrorMsg">please insert a valid emial address</span>
+                   </div>
+                   <input type="button" value="Go" id="GoButton" class="GetStartedBtn"/>
+             </form>
+            </div>
+            
+        </footer>
+    </main>
+    
+
+    <script src="./App.js"></script>
+</body>
+</html>

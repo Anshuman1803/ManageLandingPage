@@ -1,0 +1,187 @@
+@media screen and (max-width: 1023px) {
+    body{
+        background-repeat: no-repeat;
+        background-size:  350px 450px;
+        background-position-x:100px;
+        background-position-y: -100px;
+    }
+    header {
+        padding: 1em 2em;
+    }
+
+    #MenuButton {
+        display: block;
+    }
+
+    .ShowHideNav {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        width: 90%;
+        padding: 1em 0;
+        border-radius: 10px;
+        height: 40%;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    nav ul {
+        padding: 0;
+        flex-direction: column;
+        height: 100%;
+    }
+    #HeaderGetStartedButton {
+        display: none;
+    }
+    .Home{
+        height: 110vh;
+        flex-direction: column-reverse;
+    }
+    .HomeLeft{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .HomeLeft h1{
+        font-size: 30px;
+    }
+    .HomeLeft p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .HomeRight{
+        width: 100%;
+        height: 50%;
+    }
+    .HomeRight img{
+        width: 350px;
+    }
+    .Functionality{
+        background-position-y: -300px;
+        background-position-x: -90%;
+        background-size: 450px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0.5em;
+        height: 150vh;
+
+    }
+    .FunctionalityLeft{
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    .FunctionalityLeft  h3{
+        width: 90%
+    }
+    .FunctionalityLeft  p{
+        width: 94%;
+        font-size: 15px;
+    }
+    
+    .RightFunctionality{
+        width: 100%;
+        height: 70%;
+        padding: 0.5em;
+    }
+    .FunctionalityDiscription{
+        height: 35%;
+        padding: 0em;
+    }
+    .FunctionalityDiscription .Funtitle{
+        background-color: hsl(13, 100%, 96%);
+        border-radius: 50px;
+        gap: 0.5em;
+    }
+    .FunctionalityDiscription  .Funtitle span{
+        width: 50px;
+        padding: 0.2em;
+    }
+    .FunctionalityDiscription  .Funtitle h4{
+        font-size: 15px;
+    }
+    .FunctionalityDiscription p{
+        width: 100%;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .ClientReview{
+        height: 80vh;
+    }
+    .ClientReviewTitle{
+        font-size: 25px;
+    }
+    .ClientContainer{
+        height: 70%;
+    }
+    
+    .Review{
+        width: 100%;
+        height: 80%;
+        padding: 0.5em;
+    }
+    .slider-boxes {
+        display: block;
+    }
+    #Review-2, #Review-3, #Review-4{
+        display: none;
+    }
+    .GetStarted{
+        height: 40vh;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 2em;
+        padding: 1em;
+    }
+      .GetStarted h4{
+        width: 80%;
+      }
+      footer {
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .LogoAndSocial {
+        width: 100%;
+        height: 25%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    footer .LogoAndSocial .socialSites {
+        width: 100%;
+    }
+    
+    footer .Links {
+        width: 100%;
+        height: 25%;
+    }
+    
+    footer .Links a {
+        text-decoration: none;
+        font-weight: 400;
+        color: white;
+        font-size: 15px;
+    }    
+    footer .FormAndcopyright {
+        width: 100%;
+        height: 25%;
+    }
+    form{
+        height: 100%;
+        gap: 1em;
+    }    
+}
